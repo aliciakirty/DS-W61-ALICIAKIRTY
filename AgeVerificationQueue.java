@@ -25,7 +25,7 @@ public class AgeVerificationQueue {
                 try {
                     int age = Integer.parseInt(part);
 
-                    if (age >= 28 && age <= 118) {
+                    if (age >= 28 && age <= 118 && age <=1000) {
                         enqueue(passed, age);
                     } else {
                         enqueue(failed, age);
