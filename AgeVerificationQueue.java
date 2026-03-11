@@ -16,7 +16,7 @@ public class AgeVerificationQueue {
         try (Scanner scanner = new Scanner(System.in)) {
             if (!scanner.hasNextLine()) return;
             String input = scanner.nextLine();
-            String[] parts = input.split("\\s+");
+            String[] parts = input.split(" ");
             
             Queue<Integer> passed = new LinkedList<>();
             Queue<Integer> failed = new LinkedList<>();
