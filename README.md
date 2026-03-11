@@ -1,0 +1,1 @@
+Kode ini bertujuan untuk menentukan apakah seseorang bisa masuk ke dalam bar berdasarkan umurnya jika diatas atau sama dengan 1000 kode tidak akan jalan, tetapi jika umur 28 <= umur >=118 maka boleh masuk.
