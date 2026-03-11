@@ -8,6 +8,10 @@ public class AgeVerificationQueue {
         a.add(value);
     }
 
+    public static int dequeue(Queue<Integer> a) {
+        return a.remove();
+    }
+
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             if (!scanner.hasNextLine()) return;
